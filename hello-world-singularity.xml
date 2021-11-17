@@ -1,0 +1,16 @@
+<tool id="hello-world-singularity" name="Hello World Singularity" version="0.1.0" python_template_version="3.5">
+    <requirements>
+        <container type="singularity">shub://vsoch/hello-world</container>
+    </requirements>
+    <command detect_errors="exit_code"><![CDATA[
+        #execute default run command
+        /singularity
+    ]]></command>
+    <inputs>
+    </inputs>
+    <outputs>
+    </outputs>
+    <help><![CDATA[
+        TODO: Fill in help.
+    ]]></help>
+</tool>
